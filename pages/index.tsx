@@ -1,9 +1,16 @@
-import type { NextPage } from 'next'
+import { NextPage } from "next";
+import TopBar from "../components/TopBar";
 
-const Home: NextPage = () => {
-  return (
-    <h1>Hello</h1>
-  )
+const MainPage: NextPage = () => {
+    return (
+        <div className="">
+            <head>
+                <title>Iecomm</title>
+                <link rel="icon" href="/favicon.ico" />
+            </head>
+            <TopBar />
+        </div>
+    )
 }
 
-export default Home
+export default MainPage;
